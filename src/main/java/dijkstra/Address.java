@@ -1,3 +1,5 @@
+package dijkstra;
+
 public class Address {
     private final int x;
     private final int y;
