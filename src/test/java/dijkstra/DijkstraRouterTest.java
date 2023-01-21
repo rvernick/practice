@@ -1,3 +1,8 @@
+package dijkstra;
+
+import dijkstra.DijkstraRouter;
+import dijkstra.RoadMap;
+import dijkstra.Route;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -22,7 +27,7 @@ class DijkstraRouterTest {
         assertEquals(3, route.getDistance());
     }
 
-    /**  RoadMap
+    /**  dijkstra.RoadMap
      *   00 1 10 4 20   30
      *   1          1
      *   01 1 11 1 21 1 31
@@ -56,7 +61,7 @@ class DijkstraRouterTest {
         assertEquals(6, route.getDistance());
     }
 
-    /**  RoadMap
+    /**  dijkstra.RoadMap
      *   00 1 10 4 20   30
      *        1    1
      *   01 1 11 1 21 1 31

@@ -1,3 +1,5 @@
+package dijkstra;
+
 public class Road {
     private Address from;
     private Address to;
@@ -20,6 +22,6 @@ public class Road {
     }
 
     public String toString() {
-        return "Road " + from + " " + to + " " + distance;
+        return "dijkstra.Road " + from + " " + to + " " + distance;
     }
 }
